@@ -18,7 +18,7 @@ puts "vous avez devinez le bon chiffre"
 
 adeviner = 4
 a= 10
-until  adeviner == a  do  # jusqu'a ce que
+until  adeviner == a  do  # jusqu'a ce que (c'est l'inverse de while)
 	puts "rentre ton chiffre"
 a=gets.chomp.to_i
 
@@ -30,4 +30,5 @@ a=gets.chomp.to_i
  
  end
 
-puts "vous avez devinez le bon chiffre" 
+puts "vous avez devinez le bon chiffre"
+# Je quoi que c'est bon
